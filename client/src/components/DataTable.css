@@ -1,0 +1,81 @@
+/* DataTable.css */
+
+/* General Table Styles */
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 20px 0;
+  font-size: 0.9rem;
+  text-align: left;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Table Header Styles */
+thead {
+  background-color: #333333;
+}
+
+th {
+  padding: 14px 20px;
+  color: #ffffff;
+  text-align: left;
+  font-weight: 500;
+  border-bottom: 2px solid #444444;
+}
+
+/* Table Body Styles */
+tbody {
+  color: #333333;
+}
+
+td {
+  padding: 12px 20px;
+  border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+/* Link Styles */
+a {
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #004999;
+}
+
+/* Responsive Table Styles */
+@media (max-width: 768px) {
+  table {
+    font-size: 0.8rem;
+  }
+  
+  th, td {
+    padding: 10px;
+  }
+  
+  thead {
+    background-color: #444444;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  
+  tbody tr:hover {
+    background-color: #f2f2f2;
+  }
+}
